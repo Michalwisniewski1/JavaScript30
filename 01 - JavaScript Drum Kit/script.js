@@ -23,3 +23,9 @@ window.addEventListener('keydown', function(event) {
         }
     });
 });
+
+
+var array = [1,2,3,4,5];
+
+var d = array.slice(0);
+ console.log(array + ',' +  array);
