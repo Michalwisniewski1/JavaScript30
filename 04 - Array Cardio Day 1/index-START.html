@@ -105,6 +105,7 @@
         // 2. Give us an array of the inventors' first and last names
         const getNames = inventors.map(inventor => [inventor.first, inventor.last]);
         console.table(getNames);
+        document.write('aloha');
 
         // Array.prototype.sort()
         // 3. Sort the inventors by birthdate, oldest to youngest
@@ -159,6 +160,30 @@
             return obj;
         }, {});
         console.log(reduceItems);
+
+
+
+
+
+        var array = [1, 3, 5, 67];
+
+        function reverse(element) {
+            var arr = new Array;
+            for (var i = element.length - 1; i >= 0; i--) {
+                arr.push(element[i]);
+            }
+            return arr;
+        }
+        console.log(reverse(array));
+
+        function palindrome(element) {
+            var ele = element.length;
+            for (var i = element.length - 1; i >= 0; i++) {
+                ele = element[i];
+            }
+            return ele;
+        }
+        palindrome('dupa');
     </script>
 </body>
 
